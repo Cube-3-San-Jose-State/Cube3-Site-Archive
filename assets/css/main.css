@@ -3679,6 +3679,9 @@
 	#three {
 		padding: 6em 0 4em 0;
 	}
+		#three header{
+			font-size: .7em;
+		}
 
 		#three .inner {
 			display: -ms-flexbox;
