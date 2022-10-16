@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -3583,7 +3584,7 @@
 	}
 
 	#one {
-		padding: 6em 0 4em 0;
+		padding: 6em 0 2em 0;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -3603,7 +3604,7 @@
 		}
 
 	#two {
-		padding: 6em 0 4em 0;
+		padding: 1em 0 4em 0;
 		background: #f3f3f3;
 		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
 		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3966,3 +3967,10 @@
 		button {
 			background-color: red;
 		}
+
+#cansat{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
